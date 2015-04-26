@@ -3,7 +3,9 @@ I'm having real trouble to upload the app to the shinyio site, in my first try I
 ## The code files  
 Nevertheless I can share the code files anda data.  
 In the folder app_rChart you can find the code for the first try. 
+This first app has only one file which contains the code for both the server and ui, in the folder "data" the file "ISG.RDS" is located, this is my data.   
 The app may look like this:  
 ![sie_ggplot2](figures/sie_ggplot2.png)  
 In the folder sie_ggplot2 you can find the code for the second one.  
+This time I created the usual server.R and ui.R files, the data is in the same folder, unfortunately it doesn't worked.  
 ![sie_rCharts](figures/sie_rCharts.png) 
