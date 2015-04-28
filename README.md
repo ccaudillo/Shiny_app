@@ -1,11 +1,13 @@
 # Shiny_app  
-I'm having real trouble to upload the app to the shinyio site, in my first try I designed an app using rCharts but the deploying  failed, in the second try I did the same app using ggplot2 instead, but I can't manage to deploy the data to the shinyio site. My issue is that I couldn't manage to deploy my data, nor absolute neither relative path worked out.  
+Finally I made it.
 ## The code files  
-Nevertheless I can share the code files anda data.  
+
 In the folder app_rChart you can find the code for the first try. 
 This first app has only one file which contains the code for both the server and ui, in the folder "data" the file "ISG.RDS" is located, this is my data.   
 The app may look like this:  
-![sie_ggplot2](figures/sie_ggplot2.png)  
+![sie_rCharts](figures/sie_rCharts.png) 
+The app is here [https://xolotl.shinyapps.io/socgapind/](https://xolotl.shinyapps.io/socgapind/)
 In the folder sie_ggplot2 you can find the code for the second one.  
 This time I created the usual server.R and ui.R files, the data is in the same folder, unfortunately it doesn't worked.  
-![sie_rCharts](figures/sie_rCharts.png) 
+![sie_ggplot2](figures/sie_ggplot2.png)  
+The app is here [https://xolotl.shinyapps.io/soc_gap_explorer/](https://xolotl.shinyapps.io/soc_gap_explorer/)
